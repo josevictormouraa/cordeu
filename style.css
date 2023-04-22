@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+
+:root{
+    --font1: 'Metal Mania', cursive;
+    --font2:'Ysabeau', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    min-height: 100vh;
+    background: rgb(188, 188, 188);
+}
+
+.topo{
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+.topo h1{
+    font-family: var(--font1);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+.topo span{
+    color: tomato;
+}
+
+.topo > p{
+    padding-bottom: 50px;
+}
+
+.topo a, footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.topo a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--font2);
+    font-weight: bolder;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    line-height: 3.5vw;
+    padding: 20px;
+    
+}
+
+.section-imagem p{
+   display: inline-block;
+   padding: 5px;
+   background: rgb(0, 0, 0,0.800);
+   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.637);
+   color: beige;
+}
+section p{
+    margin-bottom: 2em;
+}
+
+.section-normal{
+    background: white;
+    color: #000000;
+}
+
+.section-imagem{
+    box-shadow: inset 6px 6px 13px 0 black;
+    background-attachment: fixed;
+}
+
+
+.section-imagem#img1{
+    background-image: url('imagens/pexels-ali-kazal-10762369.jpg');
+    background-size: cover;
+    background-position: center ;
+    
+}
+
+.section-imagem#img2{
+    background-image: url('imagens/pexels-viacheslav-kan-10664293.jpg');
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    color: white;
+    background: #000;
+    text-decoration: none;
+}
